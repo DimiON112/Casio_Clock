@@ -1,0 +1,41 @@
+body {
+    background-color: burlywood;
+    font-family: Courier, monospace;
+    
+}
+
+#clock {
+    font-family: Courier, monospace;
+    text-align: center;
+}
+
+table, th, td {
+    font-size: large;
+    margin: auto;
+    margin-top: 10ch;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    height: 30px;
+    width: 70px;
+}
+
+.center {
+    margin: auto;
+
+}
+
+#date{
+    font-size: 13px;
+}
+
+#one{
+    background-color: burlywood;
+    border: 0px;
+}
+#one:hover{
+    background-color:aquamarine;
+    border: 0px;
+}

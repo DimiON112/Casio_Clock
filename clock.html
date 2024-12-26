@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Casio Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+</body>
+
+    <table>
+        <tr>
+            <th colspan="3" rowspan="2"><p id="display"></p></th>
+            <th><p id="date"></p></th>
+        </tr>
+        <tr>
+            <th><p id="date"></p></th>
+        </tr>
+        <tr>
+            <th><button onclick="appedNumber(7)">7</button></th></th>
+            <th><button onclick="appedNumber(8)">8</button></th></th>
+            <th><button onclick="appedNumber(9)">9</button></th></th>
+            <th><button onclick="setOperator('/')">/</button></th></th>
+        </tr>
+        <tr>
+            <th><button onclick="appedNumber(4)">4</button></th></th>
+            <th><button onclick="appedNumber(5)">5</button></th></th>
+            <th><button onclick="appedNumber(6)">6</button></th></th>
+            <th><button onclick="setOperator('*')">*</button></th>
+        </tr>
+        <tr>
+            <th><button onclick="appedNumber(1)">1</button></th>
+            <th><button onclick="appedNumber(2)">2</button></th></th>
+            <th><button onclick="appedNumber(3)">3</button></th></th>
+            <th><button onclick="setOperator('-')">-</button></th>
+        </tr>
+        <tr>
+            <th><button onclick="appedNumber(0)">0</button></th></th>
+            <th><button onclick="appedNumber('.')">.</button></th></th>
+            <th><button onclick="setOperator('=')">=</button></th></th>
+            <th><button onclick="setOperator('+')">+</button></th>
+        </tr>
+    </table>
+    <div class="center">
+        <button id="hr24">24 hr</button>
+        <button onclick="toggleMode()">mode</button>
+        <button onclick="clearDasplay()">clear</button>
+    </div>
+
+
+    <script src="calculator.js"></script>
+    <script src="mode.js"></script>
+    <script src="clock.js"></script>
+</html>
